@@ -1,0 +1,38 @@
+#homepage-image {
+    height: 615px;
+    width: 100%;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin: 50px 50px 50px 50px;
+}
+
+.containter {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 500px){
+    h3::before {
+        content: "Welcome to Saeed AlSarhi's Website!";
+    }
+}
+
+@media (max-width: 499px){
+    h3::before {
+        content: "Welcome!";
+    }
+}

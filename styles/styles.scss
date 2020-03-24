@@ -1,0 +1,18 @@
+$color: blue;
+%font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+nav {
+    ul {
+        @extend %font;
+        font-size: 18px;
+    }
+}
+
+::selection {
+    color: $color;
+    background: yellow;
+}
